@@ -3,7 +3,9 @@
 </p>
 
 # Arcane Photos
-Keep your memories safe and secure. All in one place.
+Keep your memories safe and secure — all in one place.
+In Arcane Photos, all the photos will be encrypted first and then stored in the storage of choice.
+Contact us from the website if you got any question or feature requests.
 
 ## More Info
 * https://photos.arcaneoffice.com
