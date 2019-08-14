@@ -1,0 +1,181 @@
+@font-face {
+  font-family: "Eina Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../assets/eina01-bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Inter Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/inter/inter-regular.woff2") format("woff2"),
+    url("../assets/inter/inter-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../assets/inter/inter-medium.woff2") format("woff2"),
+    url("../assets/inter/inter-medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/inter/inter-semibold.woff2") format("woff2"),
+    url("../assets/inter/inter-semibold.woff") format("woff");
+}
+
+.h1 {
+  font-family: "Eina Bold", sans-serif;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 125px;
+  vertical-align: middle;
+}
+
+.h2 {
+  font-family: "Eina Bold", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 66px;
+  vertical-align: middle;
+}
+
+.h3 {
+  font-family: "Eina Bold", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 55px;
+  vertical-align: middle;
+}
+
+.h4 {
+  font-family: "Eina Bold", sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  vertical-align: middle;
+}
+
+.h5 {
+  font-family: "Eina Bold", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+.h6 {
+  font-family: "Eina Bold", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  vertical-align: middle;
+}
+
+@-moz-document url-prefix() {
+  .subtitle-1 {
+    font-family: "Inter Medium", sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.subtitle-1 {
+  font-family: "Inter Medium", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  vertical-align: middle;
+}
+
+.subtitle-2 {
+  font-family: "Inter SemiBold", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  vertical-align: middle;
+}
+
+.body-1 {
+  font-family: "Inter Regular", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  vertical-align: middle;
+}
+
+.body-2 {
+  font-family: "Inter Regular", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  vertical-align: middle;
+}
+
+.body-3 {
+  font-family: "Inter Regular", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  vertical-align: middle;
+  letter-spacing: -1%;
+}
+
+.button-1 {
+  font-family: "Eina Bold", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  vertical-align: middle;
+}
+
+.button-2 {
+  font-family: "Inter SemiBold", sans-serif;
+  font-size: 14px;
+  line-height: 82%;
+  text-transform: uppercase;
+  vertical-align: middle;
+  letter-spacing: -1%;
+}
+
+.link-1 {
+  font-family: "Inter SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  vertical-align: middle;
+}
+
+.link-2 {
+  font-family: "Inter SemiBold", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  vertical-align: middle;
+}
+
+.link-3 {
+  font-family: "Inter SemiBold", sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.overline {
+  font-family: "Inter SemiBold", sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 6%;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.caption {
+  font-family: "Inter Medium", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 2%;
+  vertical-align: middle;
+}

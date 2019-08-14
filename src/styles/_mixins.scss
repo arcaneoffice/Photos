@@ -1,0 +1,52 @@
+
+$gap: 32px !default;
+$tablet: 768px !default;
+$desktop: 960px+(2 * $gap) !default;
+$widescreen: 1152px+(2 * $gap) !default;
+$widescreen-enabled: true !default;
+$fullhd: 1344px+(2 * $gap) !default;
+$fullhd-enabled: true !default;
+
+@mixin from($device) {
+  @media screen and (min-width: $device) {
+    @content;
+  }
+}
+
+@mixin until($device) {
+  @media screen and (max-width: $device - 1px) {
+    @content;
+  }
+};
+
+@mixin tablet-only {
+  @media screen and (min-width: $tablet) and (max-width: $desktop - 1px) {
+    @content
+  }
+};
+
+@mixin menu() {
+  .menu-panel {
+    position: absolute;
+    padding: 8px 0;
+    text-align: left;
+    z-index: 3;
+    background-color: white;
+    border: 1px solid $black-overlay-12;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08),
+      0px 6px 12px rgba(0, 0, 0, 0.06), 0px 12px 24px rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+    @content;
+
+    .menu-item {
+      display: block;
+      color: $black-high;
+      padding: 7px 24px 8px;
+
+      &:hover {
+        background-color: $black-overlay-4;
+      }
+    }
+  }
+};
